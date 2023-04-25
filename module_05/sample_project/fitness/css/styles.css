@@ -75,7 +75,6 @@ nav li a {
 
 /* Style rules for main content */
 main {
-    clear: left;
     background-color: #fff;
     padding: 2%;
     font-size: 1.15em;
