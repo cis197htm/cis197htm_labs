@@ -1,11 +1,11 @@
 /*
 Author: Olga Kapora
-Date: 04/20/23
+Date: 04/27/23
 File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, img, h1, section, aside, figure, figcaption {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,6 +17,11 @@ img {
     display: block;
 }
 
+
+/* Style rule for box sizing apples to all elements */
+* {
+    box-sizing: border-box;
+}
 /*Style rules for mobile viewport */
 
 
@@ -149,10 +154,49 @@ footer a {
     .mobile {
         display: none;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 2;
+        grid-gap: 20px;
+    }
+
+    aside {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #373684;
+        text-shadow: 3px 3px 10px #8280cb;
+    }
+
+    .grid-item4 {
+        grid-column: 1 / span 2;
+    }
+
+    figure {
+        position: relative;
+        max-width: 275px;
+        margin: 2% auto;
+        border: 8px solid #373684;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        background: rgba(55, 54, 132, 0.7);
+        color: #fff;
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+    }
     /* Tablet Viewport: Style rule for header content */
     span.tab-desk {
         display: inline;
     }
+
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         border: none;
@@ -201,6 +245,12 @@ footer a {
 
     main h3 {
         font-size: 1.5em;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 4;
+        grid-gap: 20px;
     }
 
     #piano, #guitar, #violin {
