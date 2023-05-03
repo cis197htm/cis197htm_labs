@@ -1,11 +1,11 @@
 /*
 Author: Olga Kapora
-Date: 04/27/23
+Date: 05/03/23
 File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,14 +16,14 @@ body  {
     background-color: #000;
 }
 
-img  {
+img, video  {
     max-width: 100%;
     display: block;
 }
 
 /* Style rule for box sizing apples to all elements */
 *{
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Style rules for mobile viewport */
@@ -81,6 +81,10 @@ main {
     padding: 2%;
     font-size: 1.15em;
     font-family : 'Roboto Slab', serif;
+}
+
+video {
+    margin: 0 auto 4%;
 }
 
 .mobile h3 {
