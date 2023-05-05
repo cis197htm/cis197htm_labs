@@ -24,11 +24,6 @@ img {
 }
 /*Style rules for mobile viewport */
 
-.social img {
-    display: inline-block;
-    padding: 4%;
-}
-
 /* Hide tab-desk class */
 .tab-desk {
     display: none;
