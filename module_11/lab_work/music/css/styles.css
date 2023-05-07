@@ -258,6 +258,10 @@ footer a {
         margin-right: auto;
     }
 
+    #form {
+        text-align: center;
+    }
+
     /* Tablet Viewport: Style rules for footer area */ 
     .copyright {
         float: left; 
