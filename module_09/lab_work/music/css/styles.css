@@ -275,12 +275,7 @@ footer a {
         width: 70%;
         margin: 0 auto;
     }
-    
-    #form {
-        text-align: center;
-    }
 }
-
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 769px), print {
